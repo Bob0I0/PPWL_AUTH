@@ -2,7 +2,7 @@ language = "php"
 
 run = [
     "php", "artisan", "serve",
-    "--host", "0.0.0.0",
+    "--host", "127.0.0.1",
     "--port", "8000"
 ]
 
@@ -17,3 +17,4 @@ channel = "stable-22_11"
 [[ports]]
 localPort = 8000
 externalPort = 80
+exposeLocalhost = true
